@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstap exercice 4 Anthony Le Play</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-sm-4 text-center">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">La Manu Le Havre</h5>
+            <p class="card-text">L'École des Métier du Numerique.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">+ d'infos</button><!-- bouton pour acceder au Modal -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================ debut du Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">La Manu Le Havre</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><!-- bouton fermer le Modal -->
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body bg-primary text-light text-center">
+            <a href="https://www.lamanu.fr/le-havre" title="Le Site de La Manu du Havre" class="text-decoration-none text-light">https://www.lamanu.fr/le-havre</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">X Fermer</button><!-- bouton fermer le Modal -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ================ fin du Modal -->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
